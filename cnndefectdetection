@@ -31,8 +31,8 @@ def get_data(data_dir):
                 print(e)
     return np.array(data)
 
-train = get_data('..\WD\Results\Sliding_Window_Test_A2')
-val = get_data('..\WD\Results\Sliding_Window_Test_A2\Test')
+train = get_data('')
+val = get_data('')
 
 # l = []
 # for i in train:
